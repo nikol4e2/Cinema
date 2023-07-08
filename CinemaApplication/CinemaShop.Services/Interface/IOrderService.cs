@@ -1,10 +1,14 @@
-﻿using System;
+﻿using CinemaShop.Domain.DomainModels;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CinemaShop.Services.Interface
 {
-    internal class IOrderService
+    public interface IOrderService
     {
+        List<Order> getAllOrders();
+
+        Order GetOrderDetails(BaseEntity model);
     }
 }

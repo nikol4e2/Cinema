@@ -5,13 +5,13 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CinemaShop", "CinemaShop", "{E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaShop.Web", "CinemaShop.Web\CinemaShop.Web.csproj", "{E86148FF-1E0D-44BA-9699-6EB85AB5CD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Web", "CinemaShop.Web\CinemaShop.Web.csproj", "{E86148FF-1E0D-44BA-9699-6EB85AB5CD7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaShop.Domain", "CinemaShop.Domain\CinemaShop.Domain.csproj", "{29B9F9C1-9BFF-4E87-8106-E66AF1B928CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Domain", "CinemaShop.Domain\CinemaShop.Domain.csproj", "{29B9F9C1-9BFF-4E87-8106-E66AF1B928CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaShop.Repository", "CinemaShop.Repository\CinemaShop.Repository.csproj", "{F6B76540-9CF8-4916-9555-FBD20C558A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Repository", "CinemaShop.Repository\CinemaShop.Repository.csproj", "{F6B76540-9CF8-4916-9555-FBD20C558A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaShop.Services", "CinemaShop.Services\CinemaShop.Services.csproj", "{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Services", "CinemaShop.Services\CinemaShop.Services.csproj", "{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E86148FF-1E0D-44BA-9699-6EB85AB5CD7D} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
 		{29B9F9C1-9BFF-4E87-8106-E66AF1B928CF} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
+		{F6B76540-9CF8-4916-9555-FBD20C558A38} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
+		{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67D0B4A-6447-4241-89B4-0C5821DF6067}

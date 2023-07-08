@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CinemaShop.Services.Interface
 {
-    internal class IBackgroundEmailSender
+    public interface IBackgroundEmailSender
     {
+        Task DoWork();
     }
 }
