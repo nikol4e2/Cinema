@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Repository", "Ci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaShop.Services", "CinemaShop.Services\CinemaShop.Services.csproj", "{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CinemaShopAdminApplication", "CinemaShopAdminApplication", "{447A3888-1A38-4F9A-9291-9C3A0D8E44C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaShopAdminApplication", "CinemaShopAdminApplication\CinemaShopAdminApplication\CinemaShopAdminApplication.csproj", "{6DBA4B2D-8647-4058-BD94-77CE77C0EA88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBA4B2D-8647-4058-BD94-77CE77C0EA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA4B2D-8647-4058-BD94-77CE77C0EA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA4B2D-8647-4058-BD94-77CE77C0EA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA4B2D-8647-4058-BD94-77CE77C0EA88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,8 @@ Global
 		{29B9F9C1-9BFF-4E87-8106-E66AF1B928CF} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
 		{F6B76540-9CF8-4916-9555-FBD20C558A38} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
 		{687B7BD9-C4E6-4EE0-94B1-58EF90C157B7} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
+		{447A3888-1A38-4F9A-9291-9C3A0D8E44C7} = {E4BD3AE7-5FEF-4B00-B1C9-E5C9AAFF6356}
+		{6DBA4B2D-8647-4058-BD94-77CE77C0EA88} = {447A3888-1A38-4F9A-9291-9C3A0D8E44C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67D0B4A-6447-4241-89B4-0C5821DF6067}
